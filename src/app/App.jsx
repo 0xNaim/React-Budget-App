@@ -32,7 +32,7 @@ const App = () => {
         </Button>
       </Stack>
 
-      {!budgets.length && (
+      {!budgets?.length && (
         <div className={'text-center'}>There are no budgets</div>
       )}
 
